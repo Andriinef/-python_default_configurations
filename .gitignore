@@ -1,0 +1,58 @@
+## Operating system specific
+
+# Mac
+.DS_Store
+
+
+## Environments
+.env
+local.env
+
+# Virtual environments
+.venv
+env/
+venv/
+
+
+
+## Editors
+
+# VS code
+.vscode
+
+# PyCharm
+.idea
+
+
+
+## Storages
+# Databases dumps
+dump.sql
+
+# Sqlite
+*.sqlite3
+*.db
+
+
+
+## Log files
+*log
+
+
+
+## Infrastructure
+# Kubernetes configmaps
+infra/configmaps.yaml
+
+
+## Python stuff
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+
+# Hypothesis
+.hypothesis/
